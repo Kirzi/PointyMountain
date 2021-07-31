@@ -1,0 +1,28 @@
+Mountain:
+    Idle:
+        Position: [ 3.291, 9.217, -15.862 ]
+        Target: [ 2.875, 8.647, -13.990 ]
+    Select:
+        Position: [ 2.962, 5.394, -10.237 ]
+        Target: [ 1.921, 5.216, -8.538 ]
+    Zoom:
+        Position: [ 0.979, 4.692, -5.483 ]
+        Target: [ 1.224, 4.153, -3.570 ]
+    Cursor: [ 1.193, 4.519, -3.809]
+    State: 0
+    ShowCore: false
+    Rotate: false
+
+CompleteScreen:
+    Title:
+        ASide: "Kirzi_PointyMountain_1_PointyMountain_Endscreen_A_Side"
+    Atlas: "Endscreens/Kirzi/PointyMountain"
+    Start: [ 0.0, 0.0 ]
+    Center: [ 0.0, 0.0 ]
+    Offset: [ 0.0, 0.0 ]
+    Layers:
+      - Type: "layer"
+        Images: [ "1-PointyMountain" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.0 ]
+      - Type: "ui" 

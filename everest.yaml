@@ -1,0 +1,4 @@
+- Name: Pointy Mountain
+  Version: 1.0.0
+  Dependencies:
+    - Name: Everest

@@ -1,0 +1,300 @@
+Kirzi_PointyMountain= Pointy Mountain
+Kirzi_PointyMountain_1_PointyMountain= Pointy Mountain
+
+
+
+# Checkpoints
+
+Kirzi_PointyMountain_1_PointyMountain_b_1= Boing!
+Kirzi_PointyMountain_1_PointyMountain_c_1= Dodgeball
+Kirzi_PointyMountain_1_PointyMountain_d_1= Rescue
+Kirzi_PointyMountain_1_PointyMountain_e_1= Escape
+
+
+
+# Postcard
+Kirzi_PointyMountain_1_PointyMountain_postcard= Thanks for playing my map! {n}{n}~Kirzi
+
+
+
+# Heart
+
+poem_Kirzi_PointyMountain_1_PointyMountain_A= Ghost stories
+
+
+# Complete screen
+
+Kirzi_PointyMountain_1_PointyMountain_Endscreen_A_Side= Pointy Mountain Complete
+
+
+
+# Dialogue
+
+POINTY_STORY_1=
+
+	{anchor bottom}
+
+	[GHOSTKEVIN left normal]
+		{big}{*}GO {0.3} AWAY{/*}{/big}
+
+	{anchor top}
+
+	[Madeline right surprised]
+		What was that?
+	[Madeline right distracted]
+		{0.3}...{0.3}
+		That was a little spooky...
+
+
+POINTY_STORY_2=
+
+	{anchor top}
+
+	[DISTANTTHEO left normal]
+		Who...?
+
+	[Madeline right distracted]
+		Hello? Who's there?
+		{0.3}...{0.3}
+		I can't hear you!
+		{0.3}...{0.3}
+	[Madeline right sad]
+		That kind of sounded like... Theo?
+		No, my mind must be playing tricks on me...
+	[Madeline right sadder]
+		He ghosted me.
+		I don't know what I did...
+		But he's never coming back.
+
+	{anchor bottom}
+
+	[GHOSTKEVIN left normal]
+		{big}{*}LEAVE! {0.3} NOW! {0.3}
+		OR ELSE!{/*}{/big}
+
+	{anchor top}
+
+	[Madeline right sad]
+		That voice again!
+	[Madeline right distracted]
+		But why does it want me to leave?
+		Something's going on here.
+		What if it really is...?
+	[Madeline right upset]
+		Well, that {~}thing{/~} is obviously not Theo.
+	[Madeline right distracted]
+		That's...{0.3}
+	[Madeline right sad]
+		Well, I don't know what that is.
+	[Madeline right normal]
+		But I can't stop now. 
+
+
+POINTY_STORY_3=
+	{anchor top}
+
+	[Madeline right sad]
+		Wait...{0.3} the path is blocked. 
+		Was I supposed to go around somehow?
+	[Madeline right panic]
+		I don't want to go back into that blizzard...
+
+	[Theo left yolo]
+		YOOOOOOOOO!
+
+	[Madeline right distracted]
+		Theo?
+		Is that really you?
+		Where are you?
+
+
+POINTY_STORY_4=
+
+	{anchor top}
+
+	[Madeline right normal]
+		Theo!
+
+	[Theo left excited]
+		{+MADELINE}! You made it!
+
+	[Madeline right sad]
+		What happened?
+
+	[Theo left normal]
+		I'm not sure. 
+		I vaguely remember an earthquake, or something...
+		Next thing I know, I'm trapped in this thing.
+
+	[Madeline right normal]
+		I'm so glad to see you.
+	[Madeline right sadder]
+		I thought you hated me...
+
+	[Theo left serious]
+		Sorry about that.
+	[Theo left thinking]
+		This was supposed to be a quick day trip.
+		I thought I could use another adventure.
+	[Theo left normal]
+		Turns out, not my best idea.
+	[Theo left thinking]
+		Speaking of which...
+		As much as I'd love to catch up, could you, uh...
+
+	[Madeline right distracted]
+		Oh, right.
+	[Madeline right normal]
+		Let's get you out of there. 
+
+
+POINTY_STORY_5=
+
+	{anchor top}
+
+	[GHOSTKEVIN left normal]
+		{big}{*}If you won't leave...
+		Prepare to be crushed!{/*}{/big}
+
+
+POINTY_STORY_6=
+
+	{anchor top}
+
+	[Madeline right surprised]
+		Yikes!
+
+
+POINTY_STORY_7=
+
+	{anchor top}
+
+	[Theo right worried]
+		Now what?
+
+
+POINTY_STORY_8=
+
+	{anchor top}
+
+	[Madeline right together]
+		Don't worry! I got this!
+
+
+POINTY_STORY_9=
+
+	{anchor top}
+
+	[Madeline right surprised]
+		It's an avalanche!
+
+
+POINTY_STORY_10=
+
+	{anchor top}
+
+	[Theo right yolo]
+		Wheeeeeeeeeeeeeeeee!
+
+
+POINTY_STORY_11=
+
+	{anchor top}
+
+	[Madeline right normal]
+		It's my car!
+		We made it!
+
+	[Theo left excited]
+		Finally!
+	[Theo left normal]
+		It's good to be alive.
+
+	[Madeline right sad]
+		What did you do to make that {~}thing{/~} so angry?
+
+	[Theo left worried]
+		Me?
+	[Theo left wtf]
+		What did {~}you{/~} do to it?
+
+	[Madeline right sad]
+		Nothing...
+	[Madeline right distracted]
+		I think...
+
+	[Theo left thinking]
+		Maybe it just wanted to be left alone.
+		Which is perfectly fine with me.
+		I'm never going back.
+
+	[Madeline right sad]
+		I agree.
+	[Madeline right distracted]
+		That mountain was {~}way{/~} too pointy.
+
+	[Theo left wtf]
+		Pointy?
+
+	[Madeline right distracted]
+		I think I'll call it... 
+	[Madeline right normal]
+		Pointy Mountain!
+
+	[Theo left wtf]
+		{0.3}...{0.3}
+		You do realize it has an {~}actual{/~} name, right?
+	[Theo left thinking]
+		This must be the oxygen deprivation talking.
+		We better get you to the base quick.
+
+	[Madeline right upset]
+		{0.3}...{0.3}
+		I'm perfectly fine.
+	[Madeline right sad]
+		Just... tired.
+	[Madeline right upset]
+		From saving {~}you{/~}.
+		Again.
+
+	[Theo left normal]
+		Right... thanks for that.
+		Mostly, anyway.
+
+	[Theo left thinking]
+		In case you haven't noticed, I'm still stuck in this thing.
+		And I don't know where to find another giant eyeball.
+
+	[Madeline right sad]
+		Oh, don't worry about that.
+	[Madeline right normal]
+		I've got a chainsaw at home.
+
+	[Theo left wtf]
+		...You're kidding, right?
+
+
+POINTY_THEO_BERRY=
+
+	{anchor top}
+
+	[Theo left wtf]
+		Hey!{0.3} What are you doing up there?{0.3} Don't leave me here!
+
+
+POINTY_THEO_PINBALL=
+
+	{anchor top}
+
+	[Theo left thinking]
+		Now I know how pinballs feel...
+
+
+POINTY_HEART=
+
+	{anchor top}
+
+	[Madeline right normal]
+		Yay! I climbed the mountain!
+	[Madeline right distracted]
+		I should probably go help Theo now...
